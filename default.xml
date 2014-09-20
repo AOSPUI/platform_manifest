@@ -7,7 +7,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="AOSPUI/build" groups="pdk" revision="kk" >
+  <project path="build" name="AOSPUI/platform_build" groups="pdk" revision="kk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
